@@ -4,7 +4,7 @@ namespace CSharpCore
 {
     public class System
     {
-        public static readonly int ErrorInvalidUserName = 0;
+        public static readonly int ErrorInvalidUserName = 5;
         private readonly IAuthorizer authorizer;
         private IMailService mailService;
         private int loginCount = 0;
